@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas de Tarefas</title>
+</head>
+<body>
+    <style>
+        *{
+            background-color: lightgray;
+        }
+        main {
+            min-height: 300px;
+        }
+    </style>
+    <nav>
+        <a href="/index.html"><img src="/images/logoBatman.png" height="25px" alt="nossa logo"></a>
+        <a href="/pages/semantica.html">Tag Semânticas</a>
+        <a href="/pages/biografiaTorvads.html">Biografia Torvalds</a>
+        <a href="/pages/listaDeTarefas.html">Listas de Tarefas</a>
+        <hr>
+    </nav>
+    <main>
+        <h2>Listas de Tarefas</h2>
+        <!--   Lista não ordenada -->
+        <h4>Lista de Estudos</h4>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript
+                <ul>
+                    <li type="disc">Variáveis e tipagem</li>
+                    <li type="circle">Operadores</li>
+                    <li type="square">Estruturas Condicionais</li>
+                    <li type="noopener">Estruturas de Repetição</li>
+                </ul>
+            </li>
+            <li>DOM</li>
+            <li>Banco de Dados Relacionais</li>
+            <li>Algebra Booleana</li>
+        </ul>
+        <h4>Lista de Compras para o Churrasco</h4>
+        <!--   Lista ordenada -->
+        <ol reversed>
+            <li>Carnes
+                <ol>
+                    <li type="a">Picanha</li>
+                    <li type="A">Patinho</li>
+                    <li type="1">Maminha</li>
+                    <li type="i">Alcatra</li>
+                    <li type="I">Fraldinha</li>
+                    <li type="none">Carne de Sol</li>
+                </ol>
+            </li>
+            <li>Refrigerantes</li>
+            <li>Cervejas
+                <ol start="6" type="a">
+                    <li>Itaipava</li>
+                    <li>Heineken</li>
+                    <li>Badem Badem</li>
+                    <li>Spaten</li>
+                    <li>Corona</li>
+                    <li>Budweiser</li>
+                </ol>
+            </li>
+            <li>Queijos</li>
+            <li>Frutas</li>
+            <li>Cachacas</li>
+            <li>Outros</li>
+        </ol>
+     
+
+
+
+
+
+    </main>
+    <footer>
+        <hr>
+        <nav>
+            <a href="https://www.google.com.br" target="_blank" rel="noopener">Google</a>
+            <a href="https://www.youtube.com">YouTube</a>
+        </nav>
+        <span>@ 2023 - Centec-AM</span>
+    </footer>
+</body>
+</html>
