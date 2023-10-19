@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+
+<body>
+    <style>
+        * {
+            background-color: lightgray;
+        }
+
+        div {
+            margin: 5px;
+        }
+
+        main {
+            min-height: 300px;
+        }
+    </style>
+    <nav>
+        <a href="/index.html"><img src="/images/logoBatman.png" height="25px" alt="nossa logo"></a>
+        <a href="/pages/semantica.html">Tag Semânticas</a>
+        <a href="/pages/biografiaTorvads.html">Biografia Torvalds</a>
+        <a href="/pages/listaDeTarefas.html">Listas de Tarefas</a>
+        <a href="/pages/tabelabrasileirao.html">Tabela Brasileirão</a>
+        <a href="/pages/faleconosco.html"> Fale Conosco</a>
+        <hr>
+    </nav>
+    <main>
+        <section>
+            <div>
+                <h3 for="feedback">Feedback</h3>
+                <textarea name="feedback" id="" cols="70" rows="5" placeholder="Digite o seu comentário"></textarea>
+            </div>
+            <div>
+                <label for="estrelas">Avalie o Atendimento: </label>
+                <input type="range" name="estrelas" id="" min="0" max="5" step="0.5" list="markers">
+                <datalist id="markers">
+                    <option value="0"></option>
+                    <option value="0.5"></option>
+                    <option value="1"></option>
+                    <option value="1.5"></option>
+                    <option value="2"></option>
+                    <option value="2.5"></option>
+                    <option value="3"></option>
+                    <option value="3.5"></option>
+                    <option value="4"></option>
+                    <option value="4.5"></option>
+                    <option value="5"></option>
+                </datalist>
+            </div>
+
+            <div>
+                <button type="button">Limpar</button>
+            </div>
+
+        </section>
+        <hr> 
+
+        <section>
+            <button type="button"><a href="/pages/cadastro/login.html">Voltar</a></button>
+            <button type="button">Finalizar Cadastro</a></button>
+        </section>
+
+
+
+
+
+
+
+    </main>
+    <footer>
+        <hr>
+        <nav>
+            <a href="https://www.google.com.br" target="_blank" rel="noopener">Google</a>
+            <a href="https://www.youtube.com">YouTube</a>
+        </nav>
+        <span>@ 2023 - Centec-AM</span>
+    </footer>
+</body>
+
+</html>

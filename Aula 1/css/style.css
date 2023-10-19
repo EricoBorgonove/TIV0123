@@ -1,0 +1,24 @@
+/*
+    seletor de classes -  .classe  - é aplicado somente as tags que possuem aquela classe
+    seletor de id      -   #id   -  é aplicado somente a quem possui o identificador
+    seletor de tag     -  tag   - é aplicado a todas as tags do documento html
+    seltor universal   -  *     -  é aplicado a todas as tags
+*/
+
+*{
+    background-color: lightgray;
+}
+a{
+    font-size: 40px;
+}
+.paragrafo{
+    color: red;
+    font-weight: 900;
+}
+.fonte {
+    font-family: 'Courier New', Courier, monospace;
+}
+#paragrafo2{
+    text-align: center;
+    color: blue;
+}
