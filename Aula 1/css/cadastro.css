@@ -1,0 +1,40 @@
+body {
+    background-color: lightgray;
+}
+.btnPage a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.btnPage {
+    padding: 5px 10px;
+    font-size: 10px;
+    border: transparent;
+    border-radius: 7px 3px ;
+    background: #0e1c4f;
+    color: white;
+}
+.btnPage:hover {
+    border: 1px solid #0e1c4f ;
+    border-radius: 3px 7px;
+    background-color: white;
+    color: #0e1c4f;
+}
+.btnPage a:hover{
+    color: #0e1c4f;
+} 
+.btnCep{
+    padding:2px 10px;
+    border: transparent;
+    border-radius: 7px 3px ;
+    background: #0e1c4f;
+    color: white;
+}
+.btnCep:hover {
+    border: 1px solid #0e1c4f ;
+    border-radius: 3px 7px;
+    background-color: white;
+    color: #0e1c4f;
+}

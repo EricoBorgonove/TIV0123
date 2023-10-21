@@ -5,13 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Endereço | Fale Conosco</title>
+    <link rel="stylesheet" href="/css/cadastro.css">
 </head>
 
 <body>
     <style>
-        * {
-            background-color: lightgray;
-        }
+
 
         div {
             margin: 5px;
@@ -37,7 +36,9 @@
             <div>
                 <label for="cep">CEP: </label>
                 <input type="text" name="cep" placeholder="Digite o seu CEP">
-                <button type="button"><img height="12px" src="/images/lupa1.svg" alt="lupa"></button>
+                <button class="btnCep" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg></button>
             </div>
             <div>
                 <label for="logradouro">Logradouro: </label>
@@ -62,8 +63,8 @@
         </section>
         <hr>
         <section>
-            <button type="button"><a href="/pages/cadastro/dadosPessoais.html">Voltar</a></button>
-            <button type="button"><a href="/pages/cadastro/login.html">Avançar</a></button>
+            <button type="button" class="btnPage"><a href="/pages/cadastro/dadosPessoais.html">Voltar</a></button>
+            <button type="button" class="btnPage"><a href="/pages/cadastro/login.html">Avançar</a></button>
         </section>
 
 
