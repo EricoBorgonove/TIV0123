@@ -1,0 +1,37 @@
+.divExterno{
+    display:flex;
+    flex-direction: row;
+    padding: 15px;
+    background-color: gray;
+}
+.azul{
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+.divFases{
+    display:flex;
+    flex-direction: row; 
+}
+.vermelho{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+.verde{
+    background-color: green;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+.laranja{
+    background-color: orange;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+.ulUltima{
+    margin: 0;
+}

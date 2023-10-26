@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(224, 211, 192);
+    font-family:'Courier New', Courier, monospace;
+}
+div{
+    margin: 3px;
+}
+button{
+    font-size:12px;
+    border: none;
+    padding: 5px 10px;
+    background-color: rgb(104, 35, 168);
+    color: white;
+    border-radius: 5px;
+    border: 1.5px solid white;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+input{
+    background-color: rgb(164, 97, 227);
+    border: 1.5px solid white;
+    border-radius: 3px;
+    color: white;
+    height: 17px;
+}
+label{
+    font-weight: 500;
+    height: 17px;
+}
+.verde{
+    color: green;
+    font-weight: 600;
+}
+.vermelho{
+    color: red;
+    font-weight: 600;
+}
+.amarelo{
+    color: yellow;
+    font-weight: 600;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistemas de Notas</title>
+    <link rel="stylesheet" href="/css/notas.css">
+</head>
+<body>
+    <main>
+        <h3>Calculo de Notas </h3>
+        <div>
+            <label for="nota1">Nota1: </label>
+            <input type="number" id="nota1" onchange="verErro()"/>
+            <span id="erro1"></span>
+        </div>
+        <div>
+            <label for="nota2">Nota2: </label>
+            <input type="number" id="nota2" onchange="verErro()"/>
+            <span id="erro2"></span>
+        </div>
+        <div>
+            <label for="nota3">Nota3: </label>
+            <input type="number" id="nota3" onchange="verErro()"/>
+            <span id="erro3"></span>
+        </div>
+        <div>
+            <button type="button" onclick="calcularMedia()">Calcular Média</button>
+            <button type="button" onclick="limpar()">Limpar</button>
+        </div>
+        <div>
+            <label for="media">Média: </label>
+            <input type="number" id="media" disabled>
+        </div>
+        <div>
+            <span id="resultado"></span>
+        </div>
+
+    </main>
+    <!-- não altere abaixo -->
+    <script src="/scripts/notas.js"></script>
+</body>
+</html>
