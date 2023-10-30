@@ -10,8 +10,6 @@
 
 <body>
     <style>
-
-
         div {
             margin: 5px;
         }
@@ -30,15 +28,25 @@
         <hr>
     </nav>
     <main>
-
+        <style>
+            .error {
+                background-color: rgb(234, 122, 122);
+                
+                
+                border: 1px solid red;
+                border-radius: 3px;
+            }
+        </style>
         <section>
             <h3>Endereço</h3>
             <div>
                 <label for="cep">CEP: </label>
-                <input type="text" name="cep" placeholder="Digite o seu CEP">
-                <button class="btnCep" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                  </svg></button>
+                <input onclick="limparError()" type="number" name="cep" id="cep" placeholder="Digite o seu CEP">
+                <button onclick="pesquisarCep()" class="btnCep" type="button"><svg xmlns="http://www.w3.org/2000/svg"
+                        width="10" height="10" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg></button>
             </div>
             <div>
                 <label for="logradouro">Logradouro: </label>
@@ -57,7 +65,7 @@
                 <input type="text" name="estado" disabled>
             </div>
             <div>
-           
+
                 <button type="button">Limpar</button>
             </div>
         </section>
@@ -82,6 +90,7 @@
         </nav>
         <span>@ 2023 - Centec-AM</span>
     </footer>
+    <script src="/scripts/endereco.js"></script>
 </body>
 
 </html>
