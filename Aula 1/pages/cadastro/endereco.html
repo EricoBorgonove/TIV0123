@@ -47,22 +47,28 @@
                         <path
                             d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
                     </svg></button>
-            </div>
+                    <input class="btnCep" type="button" value="Digitar" id="digitar" onclick="digitarCep()">
+                    <input list="valores" width="10px" type="range" name="" min="0" max="1" id="digitarRange" onclick="digitarRange()">
+                     <datalist id="valores">
+                        <option value="0" label="sim">
+                        <option value="1" label="não">
+                     </datalist>  
+                </div>      
             <div>
-                <label for="logradouro">Logradouro: </label>
-                <input type="text" name="logradouro" disabled>
+                <label for="logradouro" >Logradouro: </label>
+                <input type="text" name="logradouro" id="logradouro" disabled>
                 <label for="numero">Numero: </label>
-                <input type="text" name="numero" id="" disabled>
+                <input type="text" name="numero" id="" >
                 <label for="complemento">Complemento: </label>
-                <input type="text" name="complemento" id="">
+                <input type="text" name="complemento" id="complemento"disabled>
             </div>
             <div>
                 <label for="bairro">Bairro: </label>
-                <input type="text" name="bairro" disabled>
+                <input type="text" name="bairro" id="bairro" disabled>
                 <label for="cidade">Cidade: </label>
-                <input type="text" name="cidade" disabled>
+                <input type="text" name="cidade" id="cidade" disabled>
                 <label for="estado">Estado: </label>
-                <input type="text" name="estado" disabled>
+                <input type="text" name="estado" id="uf" disabled>
             </div>
             <div>
 
