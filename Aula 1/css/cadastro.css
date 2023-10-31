@@ -38,3 +38,9 @@ body {
     background-color: white;
     color: #0e1c4f;
 }
+#digitarRange{
+    width: 10%;
+}
+input{
+    background-color: white;
+}

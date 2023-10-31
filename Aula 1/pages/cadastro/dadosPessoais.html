@@ -9,7 +9,7 @@
 
 <body>
     <style>
-        * {
+        body {
             background-color: lightgray;
         }
 
@@ -50,16 +50,16 @@
                     <label for="nascimento">Data de Nascimento</label>
                     <input type="date" name="nascimento" id="">
                     <label for="genero">Gênero: </label>
-                    <input type="radio" name="genero" id=""> Masculino
-                    <input type="radio" name="genero" id=""> Feminino
-                    <input type="radio" name="genero" id=""> Outros
-                    <input type="text" name="outros" id="" disabled>
+                    <input type="radio" name="genero" id="" onclick="abOutros()"> Masculino
+                    <input type="radio" name="genero" id="" onclick="abOutros()"> Feminino
+                    <input type="radio" name="genero" id="" onclick="abOutros()"> Outros
+                    <input type="text" name="outros" id="outros" disabled>
                 </div>
                 <div>
                     <label for="nacionalidade">Nacionalidade: </label>
-                    <select name="nacionalidade" id="">
+                    <select name="nacionalidade" id="nacionalidade" onclick="verEstados()">
                         <option value="" selected></option>
-                        <option value="">Brasil</option>
+                        <option value="BR">Brasil</option>
                         <option value="">Irã</option>
                         <option value="">Venezuela</option>
                         <option value="">Argentina</option>
@@ -67,14 +67,8 @@
                         <option value="">Israel</option>
                     </select>
                     <label for="naturalidade" hidden>Naturalidade:</label>
-                    <select name="naturalidade" id="" hidden>
+                    <select name="naturalidade" id="naturalidade" hidden>
                         <option value="" selected></option>
-                        <option value="">Amazonas</option>
-                        <option value="">Pará</option>
-                        <option value="">Maranhão</option>
-                        <option value="">Pernambuco</option>
-                        <option value="">Alagoas</option>
-                        <option value="">Sergipe</option>
                     </select>
                 </div>
                 <div>
@@ -115,6 +109,7 @@
         </nav>
         <span>@ 2023 - Centec-AM</span>
     </footer>
+    <script src="/scripts/dados.js"></script>
 </body>
 
 </html>
