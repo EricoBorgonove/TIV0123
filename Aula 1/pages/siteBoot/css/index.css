@@ -1,0 +1,14 @@
+.bg-nav{
+    background-color: #0b3c5d;
+}
+.bgBody{
+    background-color:#c7c5c5;
+    min-height: 800px;
+}
+.cardColor{
+    background-color: #c7c5c5;
+}
+.bdBodyDark{
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
